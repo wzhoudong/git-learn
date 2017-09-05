@@ -1,0 +1,51 @@
+#########	添加文件	##########
+git add .
+
+git status 	仓库当前的状态
+
+git diff	readme.txt		查看文件修改的内容
+
+
+#########	版本回退	##########
+git log		查看日志
+
+git log --pretty=oneline	可查看commit id（版本号） 版本号为前面七位数
+
+git reset --hard HEAD^	回退到上一个版本
+
+git reset --hard 3628164	回退到指定的版本
+
+git reflog		查看历史commit id（版本号）
+
+git diff HEAD -- readme.txt 	查看工作区和版本库里面最新版本的区别
+
+
+#########	撤销修改	##########
+git checkout -- readme.txt		场景1：当你改乱了工作区某个文件的内容
+
+git reset HEAD readme.txt		当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
+
+#########	删除文件	##########
+git rm test.txt		删除该文件
+
+git checkout -- test.txt		误删的文件恢复到最新版本
+
+
+#########	分支管理	##########
+git checkout -b dev 	创建分支
+
+git branch		查看分支
+
+git checkout master	切换分支
+
+git merge dev		合并指定分支到当前分支
+
+git branch -d dev		删除分支
+
+
+
+
+
+
+
+
