@@ -52,6 +52,7 @@ git branch -d dev		删除分支
 
 555
 
+<<<<<<< HEAD
 666
 
 <<<<<<< HEAD
@@ -61,6 +62,8 @@ sss
 
 =======
 >>>>>>> parent of 997ad0c... caonima
+=======
+>>>>>>> parent of d2a1191... caoni
 
 
 
