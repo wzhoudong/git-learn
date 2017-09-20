@@ -54,10 +54,13 @@ git branch -d dev		删除分支
 
 666
 
+<<<<<<< HEAD
 777
 
 sss
 
+=======
+>>>>>>> parent of 997ad0c... caonima
 
 
 
